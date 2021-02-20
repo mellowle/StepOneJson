@@ -5450,10 +5450,10 @@
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
+				"NPCName": "我",
+                "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "来自地球的使者，早上好哇！\n我姓顾，大家都叫我老顾\n是原来K114星际空港的总工程师",
+                "BodyText": "李伟\n你今天精神很不错啊！",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
@@ -5461,221 +5461,197 @@
                 }]
             },
 			{
-                "ID": "D1.am.S1",
+                "ID": "D8.am.S1",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
+				"NPCName": "李伟",
+                "NPCPhiz": "happy",
                 "HeaderText": "",
-                "BodyText": "咳咳咳……\n咳咳咳……感谢你们能来援助\n我们的空港重建有望了！",
+                "BodyText": "我现在可是每天干劲十足\n是这样的\n“美好的明天”运动遇到了个难题\n想得到你的帮助",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.am.S2"
+                        "DestSlideId": "D8.am.S2"
                 }]
             },
 			{
-                "ID": "D1.am.S2",
+                "ID": "D8.am.S2",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
 				"NPCName": "我",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "你客气了，老顾\n俗话说“众人拾柴火焰高”\n以后工作还要大家一起努力才行！",
+                "BodyText": "你说来听听\n只要是我能帮上的\n一定竭尽所能",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.am.S3"
+                        "DestSlideId": "D8.am.S3"
                 }]
             },
 			{
-                "ID": "D1.am.S3",
+                "ID": "D8.am.S3",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "李伟",
+                "NPCPhiz": "worry",
+                "HeaderText": "",
+                "BodyText": "香烟在我们星球的流行时间并不长\n因此我们缺少如何戒烟的知识\n不知道你是否可以指导下",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.am.S4"
+                }]
+            },
+			{
+                "ID": "D8.am.S4",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
 				"NPCName": "我",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "据我所知，空港之所以陷入困境\n跟大家沉溺吸烟不无关系”\n能麻烦你介绍下居民的吸烟现状吗？",
+                "BodyText": "在地球，戒烟的方法很多\n但真正有效的方法\n必须要遵循科学\n让我们咨询下星际委员会吧！",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.am.S4"
+                        "DestSlideId": "D8.am.S5"
                 }]
             },
 			{
-                "ID": "D1.am.S4",
+                "ID": "D8.am.S5",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
-                "HeaderText": "",
-                "BodyText": "咳咳咳……哎，说来话长\n也不知从何时起\n大家纷纷喜欢上了抽烟",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S5"
-                }]
-            },
-			{
-                "ID": "D1.am.S5",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
+				"NPCName": "星际委",
+                "NPCPhiz": "",
                 "HeaderText": "",
                 "BodyText": "迷恋上了吸烟时那种放松和愉悦\n然后就一传十十传百……\n现在，不吸烟的人反而是少数了",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.am.S6"
+                        "DestSlideId": "D8.am.S6"
                 }]
             },
 			{
-                "ID": "D1.am.S6",
+                "ID": "D8.am.S6",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
                 "NPCName": "星际委",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "不可否认\n吸烟对人们确实有相当的吸引力\n你和烟友们也有切身的体会吧！",
-                "UIControls": [{
-                    "ComponentType": "NextButton",
-                    "Label": "",
-                    "DestSlideId": "D1.am.S7"
-                }]
-            },
-			{
-                "ID": "D1.am.S7",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-                "NPCName": "星际委",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "不妨回想一下你自身的情况\n选出符合的选项",
+                "BodyText": "查询地球文献获知\n你所在的国家已颁布临床戒烟指南\n并建议综合戒烟疗法",
                 "UIControls": [{
                     "ComponentType": "FinishButton",
-                    "Label": "开始",
-                    "DestSlideId": "D1.am.S8"
+                    "Label": "查看",
+                    "DestSlideId": "D8.am.S7"
                 }]
             },
             {
-                "ID": "D1.am.S8",
-                "Type": "Single",
+                "ID": "D8.am.S7",
+                "Type": "Slide",
                 "Style": "Overlay",
-                "BackgroundImage": "Launching07",
-                "SlideContents": [],
+                "BackgroundImage": "",
+                "SlideContents": [{
+                    "Index": 0,
+                    "BackgroundImage": "Launching07",
+                    "HeaderText": "心理干预",
+                    "BodyText": "很多地方都设有戒烟门诊，\n医生会评估吸烟者的戒烟意愿，\n提供专业的戒烟干预。\n*全国专业戒烟热线（4008085531）提供免费戒烟咨询服务",
+                    "ImageName": "d7_s1_image0"
+                },
+                {
+                    "Index": 1,
+                    "BackgroundImage": "Launching07",
+                    "HeaderText": "行为疗法",
+                    "BodyText": "吸烟也是一种行为习惯，\n科学的行为建议和长时间随访，\n可以为戒烟者提供更多支持。",
+                    "ImageName": "d7_s1_image1"
+                },
+                {
+                    "Index": 2,
+                    "BackgroundImage": "Launching07",
+                    "HeaderText": "药物治疗",
+                    "BodyText": "戒烟药物可以缓解戒断症状，\n规范的治疗可以使戒烟成功率提高1-2倍。\n指南推荐三类治疗药物，包括：\n尼古丁咀嚼胶（非处方药）\n盐酸安非他酮缓释片（处方药）\n伐尼克兰（处方药）",
+                    "ImageName": "d7_s1_image2"
+                }],
                 "HeaderText": "",
                 "BodyText": "",
                 "UIControls": [{
-                    "ComponentType": "LongButton",
+                    "ComponentType": "Pagination",
                     "Label": "完成",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S9"
-                }],
-                "Questions": [{
-                    "QuestionId": "D1.am.S1.Q1",
-                    "QuestionType": "SimpleCardJudger"
+                    "DestSlideId": "D8.am.S8"
                 }]
             },
             {
-                "ID": "D1.am.S9",
-                "Type": "Result",
+                "ID": "D8.am.S8",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "李伟",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "原来在你的母星上\n有这么多科学戒烟的方法啊！\n大家只要下定决心戒烟\n总能找到一款最适合自己的方法！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.am.S9"
+                }]
+            },
+            {
+                "ID": "D8.am.S9",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "我",
+                "NPCPhiz": "",
+                "HeaderText": "",
+                "BodyText": "是的\n有这么多科学戒烟的方法啊！\n这要感谢医疗工作者们的付出！\n这还有一份尼古丁代替疗法的资料\n希望能帮到想要戒烟的人们",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.am.S10"
+                }]
+            },
+            {
+                "ID": "D8.am.S10",
+                "Type": "Reward",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
                 "UIControls": [{
                     "ComponentType": "LongButton",
-                    "Label": "完成",
+                    "Label": "播放视频",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S10"
+                    "DestSlideId": "D8.am.S11"
                 }],
-                "Result": {
-                    "Id": "D1.am.result.1"
+                "Reward": {
+                    "Id": "D8.am.reward.1",
+                    "Header": "尼古丁代替疗法",
+                    "Name": "戒烟药物作用视频",
+                    "UseDescription": "为有兴趣的战士提供更深入的药物治疗信息，解释尼古丁替代疗法的前世今生。",
+                    "Image": "reward_d7_0",
+                    "VideoFileName": "effect_of_smoking_cessation_drugs"
                 }
             },
-			{
-                "ID": "D1.am.S10",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "老顾\n星际委员会分享给我们\n一套有关吸烟的享受的测试",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S11"
-                }]
-            },
-			{
-                "ID": "D1.am.S11",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "测试者借此回想自己的吸烟行为\n从而更清晰地认识自己的现状\n我们把这套测试分享出去怎么样？",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S12"
-                }]
-            },
-			{
-                "ID": "D1.am.S12",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "happy",
-                "HeaderText": "",
-                "BodyText": "咳咳咳……那可是太好了！\n我这就把这套测试方法分享出去\n让大家都试一试！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S13"
-                }]
-            },
-			{
-                "ID": "D1.am.S13",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "happy",
-                "HeaderText": "",
-                "BodyText": "这将是我们与烟瘾斗争迈出的一小步\n相信以后随着人们健康状况的改善\n空港重建事业也会步上正轨的！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S14"
-                }]
-            },
-			{
-                "ID": "D1.am.S14",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "是啊\n千里之行，始于足下\n让我们鼓足勇气，大步向前！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S15"
-                }]
-            },			
             {
-                "ID": "D1.am.S15",
+                "ID": "D8.am.S11",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "李伟",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "这些信息太有用了\n我们会把这些宝贵的知识\n分享给大家，让更多人知道\n等我的好消息！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.am.S12"
+                }]
+            },
+            {
+                "ID": "D8.am.S12",
                 "Type": "Reward",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
@@ -5683,29 +5659,29 @@
                     "ComponentType": "LongButton",
                     "Label": "开始建造",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S16"
+                    "DestSlideId": "D8.am.S13"
                 }],
                 "Reward": {
-                    "Id": "D1.am.reward.1"
+                    "Id": "D8.am.reward.1"
                 }
             },
             {
-                "ID": "D1.am.S16",
+                "ID": "D8.am.S13",
                 "Type": "Single",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
                 "SlideContents": [],
                 "HeaderText": "「早间任务已完成",
-                "BodyText": "下午，老顾又会给你带来什么消息呢？\n你想了解自己所在地区的烟民数据统计吗？\n即将为您解密，别忘记回来哦！",
+                "BodyText": "今天下午\n星际委员会会公布调查结果\n影响K114星球的神秘力量是何方神圣？\n敬请期待!",
                 "UIControls": [{
                     "ComponentType": "LongButton",
                     "Label": "返回主页",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S17"
+                    "DestSlideId": "D8.am.S14"
                 }]
             },
             {
-                "ID": "D1.am.S17",
+                "ID": "D8.am.S14",
                 "Type": "Single",
                 "Style": "Blank",
                 "BackgroundImage": "Mainpage01",
@@ -5722,29 +5698,29 @@
 			],
             "PMScreens": [
 			{
-                "ID": "D1.pm.S0",
+                "ID": "D8.pm.S0",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-                "NPCName": "StepOne",
-                "NPCPhiz": "",
+                "NPCName": "李伟",
+                "NPCPhiz": "worry",
                 "HeaderText": "",
-                "BodyText": "老顾把这套测试推荐给了很多人\n我们可以借此了解大家的吸烟现状\n他拿着大家的测试结果回来了！",
+                "BodyText": "我们在推广科学戒烟方法的过程中\n不知从哪里流传出来些奇怪的言论\n与正确的科学方法混淆在一起\n让人头疼",
                 "UIControls": [{
                     "ComponentType": "NextButton",
                     "Label": "",
-                    "DestSlideId": "D1.pm.S1"
+                    "DestSlideId": "D8.pm.S1"
                 }]
             },
 			{
-                "ID": "D1.pm.S1",
+                "ID": "D8.pm.S1",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
+				"NPCName": "我",
+                "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "大家的结果出来了\n××%的人认为吸烟会带来更好的感受\n××%的人认为吸烟会带来实在的好处\n××%的人认为吸烟会缓解负面的情绪",
+                "BodyText": "啊，又一次的遇到有人阻碍吗？\n难道是那股神秘力量的原因吗？",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
@@ -5752,201 +5728,293 @@
                 }]
             },
 			{
-                "ID": "D1.pm.S2",
+                "ID": "D8.pm.S2",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
+				"NPCName": "李伟",
+                "NPCPhiz": "shock",
                 "HeaderText": "",
-                "BodyText": "咳咳咳……这些结果显示\n对于绝大多数居民来说\n吸烟确实是一种消遣和享受啊！",
+                "BodyText": "神秘力量？\n我听史塔克和老顾说起过",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.pm.S3"
+                        "DestSlideId": "D8.pm.S3"
                 }]
             },
 			{
-                "ID": "D1.pm.S3",
+                "ID": "D8.pm.S3",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
 				"NPCName": "我",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "不瞒你说，在我的母星地球\n人们也因为享受而吸烟成瘾\n让我们一起看下收录的图片资料",
+                "BodyText": "我不是非常确定\n星际委员会正在帮助调查\n你不妨先把这些说法列出来\n让我们尝试从中辨别真伪",
                 "UIControls": [{
-                        "ComponentType": "FinishButton",
-                        "Label": "查看",
-                        "DestSlideId": "D1.pm.S4"
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S4"
                 }]
             },
             {
-                "ID": "D1.pm.S4",
+                "ID": "D8.pm.S4",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "李伟",
+                "NPCPhiz": "normal",
+                "HeaderText": "",
+                "BodyText": "好的\n我们收集都在这里了",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S5"
+                }]
+            },
+            {
+                "ID": "D8.pm.S5",
                 "Type": "Slide",
                 "Style": "Overlay",
                 "BackgroundImage": "",
                 "SlideContents": [{
                     "Index": 0,
                     "BackgroundImage": "Launching07",
-                    "HeaderText": "",
-                    "BodyText": "迈克是需要佩戴氧气面罩的病人，\n但在他烟瘾上来的时候，\n总会摘下面罩偷偷吸烟……",
-                    "ImageName": "d1_s1_image0",
-                    "Mask": "1"
-                },
-                {
-                    "Index": 1,
-                    "BackgroundImage": "Launching07",
-                    "HeaderText": "",
-                    "BodyText": "小杰自小闻烟雾气味长大，\n某天他点了一支长辈遗漏的烟，\n偷偷叼在嘴里……",
-                    "ImageName": "d1_s1_image1",
-                    "Mask": "1"
-                },
-                {
-                    "Index": 2,
-                    "BackgroundImage": "Launching07",
-                    "HeaderText": "",
-                    "BodyText": "阿坤的妻子不在家，\n他独自带孩子的时候，\n双手抱娃，嘴上抽烟……",
-                    "ImageName": "d1_s1_image2",
-                    "Mask": "1"
-                }],
+                    "HeaderText": "戒烟指南推荐的戒烟综合疗法不包含以下哪项？",
+                    "BodyText": "",
+                    "Questions": [{
+                        "QuestionId": "D8.pm.S5.Q1",
+                        "QuestionType": "SingleChoiceWithAnswer",
+                        "Answers": [{
+                                "AnswerId": "D8.pm.S5.Q1.A1",
+                                "AnswerScore": 0,
+                                "AnswerResponse": null,
+                                "AnswerText": "心理干预",
+                                "AnswerIcon": ""
+                            },
+                            {
+                                "AnswerId": "D8.pm.S5.Q1.A2",
+                                "AnswerScore": 0,
+                                "AnswerResponse": null,
+                                "AnswerText": "行为疗法",
+                                "AnswerIcon": ""
+                            },
+                            {
+                                "AnswerId": "D8.pm.S5.Q1.A3",
+                                "AnswerScore": 0,
+                                "AnswerResponse": null,
+                                "AnswerText": "药物治疗",
+                                "AnswerIcon": ""
+                            },
+                            {
+                                "AnswerId": "D8.pm.S5.Q1.A4",
+                                "AnswerScore": 1,
+                                "AnswerResponse": null,
+                                "AnswerText": "使用电子烟",
+                                "AnswerIcon": ""
+                            }]
+                        }]
+                    },
+                    {
+                        "Index": 1,
+                        "BackgroundImage": "Launching07",
+                        "HeaderText": "关于尼古丁替代疗法，以下错误的是",
+                        "BodyText": "",
+                        "Questions": [{
+                            "QuestionId": "D8.pm.S5.Q2",
+                            "QuestionType": "SingleChoiceWithAnswer",
+                            "Answers": [{
+                                    "AnswerId": "D8.pm.S5.Q2.A1",
+                                    "AnswerScore": 0,
+                                    "AnswerResponse": null,
+                                    "AnswerText": "它的灵感来源于潜艇水兵",
+                                    "AnswerIcon": ""
+                                },
+                                {
+                                    "AnswerId": "D8.pm.S5.Q2.A2",
+                                    "AnswerScore": 0,
+                                    "AnswerResponse": null,
+                                    "AnswerText": "尼古丁咀嚼胶是其第一类产品",
+                                    "AnswerIcon": ""
+                                },
+                                {
+                                    "AnswerId": "D8.pm.S5.Q2.A3",
+                                    "AnswerScore": 0,
+                                    "AnswerResponse": null,
+                                    "AnswerText": "它被全球多个国家所采用",
+                                    "AnswerIcon": ""
+                                },
+                                {
+                                    "AnswerId": "D8.pm.S5.Q2.A4",
+                                    "AnswerScore": 1,
+                                    "AnswerResponse": null,
+                                    "AnswerText": "它和烟草一样容易导致上瘾",
+                                    "AnswerIcon": ""
+                                }]
+                            }]
+                        }
+                ],
                 "HeaderText": "",
                 "BodyText": "",
                 "UIControls": [{
                     "ComponentType": "Pagination",
-                    "Label": "完成",
+                    "Label": "提交",
                     "Icon": "",
-                    "DestSlideId": "D1.pm.S5"
+                    "DestSlideId": "D8.pm.S6"
                 }]
             },
             {
-                "ID": "D1.pm.S5",
+                "ID": "D8.pm.S6",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-                "NPCName": "星际委",
+				"NPCName": "星际委",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "查阅地球文献\n发现了部分地区的吸烟率数据\n选择你好奇的省份\n看看身边有多少人\n和K114星球的居民一样离不开香烟",
+                "BodyText": "各位！\n经过这段时间的深入调查\n神秘力量的面目终于被我们揭开了！",
                 "UIControls": [{
-                    "ComponentType": "FinishButton",
-                    "Label": "查看",
-                    "DestSlideId": "D1.pm.S6"
-                }]
-            },
-			{
-                "ID": "D1.pm.S6",
-                "Type": "Single",
-                "Style": "Overlay",
-                "BackgroundImage": "Launching07",
-                "SlideContents": [],
-                "HeaderText": "",
-                "BodyText": "",
-                "UIControls": [{
-                    "ComponentType": "LongButton",
-                    "Label": "下一步",
-                    "Icon": "",
-                    "DestSlideId": "D1.pm.S7"
-                }],
-                "Questions": [{
-                    "QuestionId": "D1.pm.S6.Q1",
-                    "QuestionType": "ProvinceData",
-                    "QuestionLabel": "",
-                    "ResponseAction": ""
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S7"
                 }]
             },
             {
-                "ID": "D1.pm.S7",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-                "NPCName": "星际委",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "如你所见\n其实不管在K114星球还是在你身边\n都有许多吸烟成瘾的居民",
-                "UIControls": [{
-                    "ComponentType": "NextButton",
-                    "Label": "",
-                    "DestSlideId": "D1.pm.S8"
-                }]
-            },
-			{
-                "ID": "D1.pm.S8",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-                "NPCName": "星际委",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "星际委员会选中你执行任务\n了解烟草，但戒烟的选择权始终在你\n自己手中……",
-                "UIControls": [{
-                    "ComponentType": "NextButton",
-                    "Label": "",
-                    "DestSlideId": "D1.pm.S9"
-                }]
-            },
-			{
-                "ID": "D1.pm.S9",
+                "ID": "D8.pm.S7",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
 				"NPCName": "我",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "老顾，你们不妨也统计一下\nK114星球居民的吸烟情况\n我相信这将帮助大家看清些潜藏的问题",
+                "BodyText": "太好了\n究竟是谁侵染了K114星球？",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.pm.S10"
+                        "DestSlideId": "D8.pm.S8"
                 }]
             },
-			{
-                "ID": "D1.pm.S10",
+            {
+                "ID": "D8.pm.S8",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
+				"NPCName": "星际委",
+                "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "太好了，谢谢你的建议\n我会立马推进这项工作\n认识和接纳自己才是改变的第一步！",
+                "BodyText": "与其说它是谁，倒不如说\n它更近似于一种精神力量\n在很多星球上，它鼓动人们吸烟\n散播吸烟无害的谬论",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.pm.S11"
+                        "DestSlideId": "D8.pm.S9"
                 }]
             },
-			{
-                "ID": "D1.pm.S11",
+            {
+                "ID": "D8.pm.S9",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
+				"NPCName": "星际委",
+                "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "我们K114星球的居民\n最急需的就是认清现状！",
+                "BodyText": "它削弱着人们戒烟的意志\n导致人们染上烟瘾\n是空港事业衰落的幕后黑手！\n我们称其为“烟魔”",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.pm.S12"
+                        "DestSlideId": "D8.pm.S10"
                 }]
             },
-			{
-                "ID": "D1.pm.S12",
+            {
+                "ID": "D8.pm.S10",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "李伟",
+                "NPCPhiz": "anger",
+                "HeaderText": "",
+                "BodyText": "烟魔\n原来就是这个罪魁祸首导致了一切！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S11"
+                }]
+            },
+            {
+                "ID": "D8.pm.S11",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
 				"NPCName": "我",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "不错，自我审视是改变的开始\n让我们一起努力\n重启K114星球的美好未来！",
+                "BodyText": "那么有什么对付它的好方法吗？",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.pm.S13"
+                        "DestSlideId": "D8.pm.S12"
+                }]
+            },
+            {
+                "ID": "D8.pm.S12",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "星际委",
+                "NPCPhiz": "",
+                "HeaderText": "",
+                "BodyText": "学习科学的戒烟知识\n增强自己戒烟的意志\n逐步戒烟，恢复健康\n就不会给它趁虚而入的机会！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S13"
+                }]
+            },
+            {
+                "ID": "D8.pm.S13",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "星际委",
+                "NPCPhiz": "",
+                "HeaderText": "",
+                "BodyText": "好在经过大家的共同努力\nK114星球的一切都在好转\n但越在最后关头，越不能放松警惕\n千万要防备它来突然破坏！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S14"
+                }]
+            },
+            {
+                "ID": "D8.pm.S14",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "李伟",
+                "NPCPhiz": "normal",
+                "HeaderText": "",
+                "BodyText": "有了星际委员会和你的帮助\n我们继续奋斗下去\n一定能战胜它！\n这我有十足的信心！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S15"
+                }]
+            },
+            {
+                "ID": "D8.pm.S15",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "我",
+                "NPCPhiz": "",
+                "HeaderText": "",
+                "BodyText": "信心是最宝贵的财富\n成功离我们不远了！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D8.pm.S16"
                 }]
             },
 			{
-                "ID": "D1.pm.S13",
+                "ID": "D8.pm.S16",
                 "Type": "Reward",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
@@ -5954,44 +6022,29 @@
                     "ComponentType": "LongButton",
                     "Label": "建造完成",
                     "Icon": "",
-                    "DestSlideId": "D1.pm.S14"
+                    "DestSlideId": "D8.pm.S17"
                 }],
                 "Reward": {
-                    "Id": "D1.am.reward.1"
+                    "Id": "D8.am.reward.1"
                 }
             },
             {
-                "ID": "D1.pm.S14",
+                "ID": "D8.pm.S17",
                 "Type": "Single",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
                 "SlideContents": [],
                 "HeaderText": "「夜间任务已完成",
-                "BodyText": "明天上午，将有一位美丽而多愁善感的姑娘\n前来向你寻求帮助\n什么事让她心怀忧虑、愁眉不展呢？",
+                "BodyText": "终于来到了最后关头\n明天将完成空港建设的最后一步！\n一切都能按计划顺利地进行吗？\n狡猾的“烟魔”，还有什么花招吗？",
                 "UIControls": [{
                     "ComponentType": "LongButton",
                     "Label": "返回主页",
                     "Icon": "",
-                    "DestSlideId": "D1.pm.S15"
-                }]
-            },
-			{
-                "ID": "D1.pm.S15",
-                "Type": "Single",
-                "Style": "Overlay",
-                "BackgroundImage": "Launching07",
-                "SlideContents": [],
-                "HeaderText": "「隐藏剧情已解锁",
-                "BodyText": "恭喜你已经顺利完成了今日任务\n解锁了一段隐藏剧情\n【老顾的记事本】\n请点击主页的“高级通讯卫星”查看\n不知看完后的你，会不会心生感触呢？",
-                "UIControls": [{
-                    "ComponentType": "LongButton",
-                    "Label": "返回主页",
-                    "Icon": "",
-                    "DestSlideId": "D1.pm.S16"
+                    "DestSlideId": "D8.pm.S18"
                 }]
             },
             {
-                "ID": "D1.pm.S16",
+                "ID": "D8.pm.S18",
                 "Type": "Single",
                 "Style": "Blank",
                 "BackgroundImage": "Mainpage01",
@@ -6010,242 +6063,109 @@
 		{
             "AM": true,
             "DayID": "D9",
-            "AMNotification": "一位德高望重的居民前来跟您沟通……",
-            "PMNotification": "老顾拿着测试结果来向你回复了……",
+            "AMNotification": "星际空港的建设进入最后阶段……",
+            "PMNotification": "激动人心的时刻到来，飞船整装待发……",
             "AMNotificationTitle": "倒计时1天",
             "PMNotificationTitle": "倒计时1天",
             "AMScreens": [
 			{
-                "ID": "D1.am.S0",
+                "ID": "D9.am.S0",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
-                "HeaderText": "",
-                "BodyText": "来自地球的使者，早上好哇！\n我姓顾，大家都叫我老顾\n是原来K114星际空港的总工程师",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S1"
-                }]
-            },
-			{
-                "ID": "D1.am.S1",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
-                "HeaderText": "",
-                "BodyText": "咳咳咳……\n咳咳咳……感谢你们能来援助\n我们的空港重建有望了！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S2"
-                }]
-            },
-			{
-                "ID": "D1.am.S2",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
+				"NPCName": "星际委",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "你客气了，老顾\n俗话说“众人拾柴火焰高”\n以后工作还要大家一起努力才行！",
+                "BodyText": "亲爱的朋友\n曾经有另外一个星球的大使\n向你推荐了自己最喜欢的一天\n现在轮到你来向其他大使推荐了",
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.am.S3"
-                }]
-            },
-			{
-                "ID": "D1.am.S3",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "据我所知，空港之所以陷入困境\n跟大家沉溺吸烟不无关系”\n能麻烦你介绍下居民的吸烟现状吗？",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S4"
-                }]
-            },
-			{
-                "ID": "D1.am.S4",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
-                "HeaderText": "",
-                "BodyText": "咳咳咳……哎，说来话长\n也不知从何时起\n大家纷纷喜欢上了抽烟",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S5"
-                }]
-            },
-			{
-                "ID": "D1.am.S5",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
-                "HeaderText": "",
-                "BodyText": "迷恋上了吸烟时那种放松和愉悦\n然后就一传十十传百……\n现在，不吸烟的人反而是少数了",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S6"
-                }]
-            },
-			{
-                "ID": "D1.am.S6",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-                "NPCName": "星际委",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "不可否认\n吸烟对人们确实有相当的吸引力\n你和烟友们也有切身的体会吧！",
-                "UIControls": [{
-                    "ComponentType": "NextButton",
-                    "Label": "",
-                    "DestSlideId": "D1.am.S7"
-                }]
-            },
-			{
-                "ID": "D1.am.S7",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-                "NPCName": "星际委",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "不妨回想一下你自身的情况\n选出符合的选项",
-                "UIControls": [{
-                    "ComponentType": "FinishButton",
-                    "Label": "开始",
-                    "DestSlideId": "D1.am.S8"
+                        "DestSlideId": "D9.am.S1"
                 }]
             },
             {
-                "ID": "D1.am.S8",
+                "ID": "D9.am.S1",
                 "Type": "Single",
-                "Style": "Overlay",
+                "Style": "Blank",
                 "BackgroundImage": "Launching07",
                 "SlideContents": [],
                 "HeaderText": "",
                 "BodyText": "",
                 "UIControls": [{
                     "ComponentType": "LongButton",
-                    "Label": "完成",
+                    "Label": "推荐",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S9"
+                    "DestSlideId": "D9.am.S2"
                 }],
                 "Questions": [{
-                    "QuestionId": "D1.am.S1.Q1",
-                    "QuestionType": "SimpleCardJudger"
+                    "QuestionId": "D9.am.S1.Q1",
+                    "QuestionType": "PureLandGudie",
+                    "QuestionLabel": "",
+                    "ResponseAction": ""
                 }]
             },
             {
-                "ID": "D1.am.S9",
-                "Type": "Result",
+                "ID": "D9.am.S2",
+                "Type": "Single",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
+                "SlideContents": [],
+                "HeaderText": "「戒烟路不孤独」",
+                "BodyText": "回想一下这趟旅程中遇到的人\n老顾、艾丽莎、史塔克、李伟\n他们一直都在力所能及地帮助其他人\n要相信，在你的戒烟路上\n同样会有很多人伴你同行",
                 "UIControls": [{
                     "ComponentType": "LongButton",
-                    "Label": "完成",
+                    "Label": "下一步",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S10"
-                }],
-                "Result": {
-                    "Id": "D1.am.result.1"
-                }
-            },
-			{
-                "ID": "D1.am.S10",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "老顾\n星际委员会分享给我们\n一套有关吸烟的享受的测试",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S11"
+                    "DestSlideId": "D9.am.S3"
                 }]
             },
-			{
-                "ID": "D1.am.S11",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "测试者借此回想自己的吸烟行为\n从而更清晰地认识自己的现状\n我们把这套测试分享出去怎么样？",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S12"
-                }]
-            },
-			{
-                "ID": "D1.am.S12",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "happy",
-                "HeaderText": "",
-                "BodyText": "咳咳咳……那可是太好了！\n我这就把这套测试方法分享出去\n让大家都试一试！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S13"
-                }]
-            },
-			{
-                "ID": "D1.am.S13",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "happy",
-                "HeaderText": "",
-                "BodyText": "这将是我们与烟瘾斗争迈出的一小步\n相信以后随着人们健康状况的改善\n空港重建事业也会步上正轨的！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S14"
-                }]
-            },
-			{
-                "ID": "D1.am.S14",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "是啊\n千里之行，始于足下\n让我们鼓足勇气，大步向前！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.am.S15"
-                }]
-            },			
             {
-                "ID": "D1.am.S15",
+                "ID": "D9.am.S3",
+                "Type": "Single",
+                "Style": "Overlay",
+                "BackgroundImage": "Launching07",
+                "SlideContents": [],
+                "HeaderText": "「戒烟路不孤独」",
+                "BodyText": "也许是你身边的同事\n打趣地问你怎么突然要戒烟了\n然后给你加油鼓励\n日常在一起闲聊没有了烟雾的缭绕\n却同样欢快轻松",
+                "UIControls": [{
+                    "ComponentType": "LongButton",
+                    "Label": "下一步",
+                    "Icon": "",
+                    "DestSlideId": "D9.am.S4"
+                }]
+            },
+            {
+                "ID": "D9.am.S4",
+                "Type": "Single",
+                "Style": "Overlay",
+                "BackgroundImage": "Launching07",
+                "SlideContents": [],
+                "HeaderText": "「戒烟路不孤独」",
+                "BodyText": "也许是你的家人\n知道你要戒烟而抑制不住地高兴\n会特意给你准备一些清嗓润肺的补品\n严厉地监督你执行戒烟计划\n他们才是最担心你健康的人",
+                "UIControls": [{
+                    "ComponentType": "LongButton",
+                    "Label": "下一步",
+                    "Icon": "",
+                    "DestSlideId": "D9.am.S5"
+                }]
+            },
+            {
+                "ID": "D9.am.S5",
+                "Type": "Single",
+                "Style": "Overlay",
+                "BackgroundImage": "Launching07",
+                "SlideContents": [],
+                "HeaderText": "「戒烟路不孤独」",
+                "BodyText": "也许是以前成功戒烟的烟友\n听说你要戒烟\n忙不迭给你推荐各种戒烟方法\n恨不得把自己的经验一股脑儿倒给你\n他们想让你体会到戒烟的好处",
+                "UIControls": [{
+                    "ComponentType": "LongButton",
+                    "Label": "下一步",
+                    "Icon": "",
+                    "DestSlideId": "D9.am.S6"
+                }]
+            },		
+            {
+                "ID": "D9.am.S6",
                 "Type": "Reward",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
@@ -6253,29 +6173,74 @@
                     "ComponentType": "LongButton",
                     "Label": "开始建造",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S16"
+                    "DestSlideId": "D9.am.S7"
                 }],
                 "Reward": {
-                    "Id": "D1.am.reward.1"
+                    "Id": "D9.am.reward.1"
                 }
             },
             {
-                "ID": "D1.am.S16",
+                "ID": "D9.am.S7",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "老顾",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "来自地球的使者，上午好！\n经过你和星际委员会的帮助\n星际空港基本已经全部重建完成\n第一艘货运飞船正整装待发！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D9.am.S8"
+                }]
+            },
+            {
+                "ID": "D9.am.S8",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "老顾",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "我代表大家\n邀请你今天晚些时候来发射基地\n参加星际空港重启典礼\n并观看现场发射！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D9.am.S9"
+                }]
+            },
+            {
+                "ID": "D9.am.S9",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "我",
+                "NPCPhiz": "",
+                "HeaderText": "",
+                "BodyText": "老顾，我真心为你们感到高兴！\n晚上的典礼我一定准时参加！",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D9.am.S10"
+                }]
+            },
+            {
+                "ID": "D9.am.S10",
                 "Type": "Single",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
                 "SlideContents": [],
                 "HeaderText": "「早间任务已完成",
-                "BodyText": "下午，老顾又会给你带来什么消息呢？\n你想了解自己所在地区的烟民数据统计吗？\n即将为您解密，别忘记回来哦！",
+                "BodyText": "警告！\n据可靠情报：\n“烟魔”极有可能会现身发射现场，请多加防备。",
                 "UIControls": [{
                     "ComponentType": "LongButton",
                     "Label": "返回主页",
                     "Icon": "",
-                    "DestSlideId": "D1.am.S17"
+                    "DestSlideId": "D9.am.S11"
                 }]
             },
             {
-                "ID": "D1.am.S17",
+                "ID": "D9.am.S11",
                 "Type": "Single",
                 "Style": "Blank",
                 "BackgroundImage": "Mainpage01",
@@ -6292,276 +6257,187 @@
 			],
             "PMScreens": [
 			{
-                "ID": "D1.pm.S0",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-                "NPCName": "StepOne",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "老顾把这套测试推荐给了很多人\n我们可以借此了解大家的吸烟现状\n他拿着大家的测试结果回来了！",
-                "UIControls": [{
-                    "ComponentType": "NextButton",
-                    "Label": "",
-                    "DestSlideId": "D1.pm.S1"
-                }]
-            },
-			{
-                "ID": "D1.pm.S1",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
-                "HeaderText": "",
-                "BodyText": "大家的结果出来了\n××%的人认为吸烟会带来更好的感受\n××%的人认为吸烟会带来实在的好处\n××%的人认为吸烟会缓解负面的情绪",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.pm.S2"
-                }]
-            },
-			{
-                "ID": "D1.pm.S2",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "worry",
-                "HeaderText": "",
-                "BodyText": "咳咳咳……这些结果显示\n对于绝大多数居民来说\n吸烟确实是一种消遣和享受啊！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.pm.S3"
-                }]
-            },
-			{
-                "ID": "D1.pm.S3",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "不瞒你说，在我的母星地球\n人们也因为享受而吸烟成瘾\n让我们一起看下收录的图片资料",
-                "UIControls": [{
-                        "ComponentType": "FinishButton",
-                        "Label": "查看",
-                        "DestSlideId": "D1.pm.S4"
-                }]
-            },
-            {
-                "ID": "D1.pm.S4",
-                "Type": "Slide",
-                "Style": "Overlay",
-                "BackgroundImage": "",
-                "SlideContents": [{
-                    "Index": 0,
-                    "BackgroundImage": "Launching07",
-                    "HeaderText": "",
-                    "BodyText": "迈克是需要佩戴氧气面罩的病人，\n但在他烟瘾上来的时候，\n总会摘下面罩偷偷吸烟……",
-                    "ImageName": "d1_s1_image0",
-                    "Mask": "1"
-                },
-                {
-                    "Index": 1,
-                    "BackgroundImage": "Launching07",
-                    "HeaderText": "",
-                    "BodyText": "小杰自小闻烟雾气味长大，\n某天他点了一支长辈遗漏的烟，\n偷偷叼在嘴里……",
-                    "ImageName": "d1_s1_image1",
-                    "Mask": "1"
-                },
-                {
-                    "Index": 2,
-                    "BackgroundImage": "Launching07",
-                    "HeaderText": "",
-                    "BodyText": "阿坤的妻子不在家，\n他独自带孩子的时候，\n双手抱娃，嘴上抽烟……",
-                    "ImageName": "d1_s1_image2",
-                    "Mask": "1"
-                }],
-                "HeaderText": "",
-                "BodyText": "",
-                "UIControls": [{
-                    "ComponentType": "Pagination",
-                    "Label": "完成",
-                    "Icon": "",
-                    "DestSlideId": "D1.pm.S5"
-                }]
-            },
-            {
-                "ID": "D1.pm.S5",
+                "ID": "D9.pm.S0",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
                 "NPCName": "星际委",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "查阅地球文献\n发现了部分地区的吸烟率数据\n选择你好奇的省份\n看看身边有多少人\n和K114星球的居民一样离不开香烟",
+                "BodyText": "L18星球的使者接收到了你上午的分享\n并发来一封感谢信",
                 "UIControls": [{
                     "ComponentType": "FinishButton",
                     "Label": "查看",
-                    "DestSlideId": "D1.pm.S6"
+                    "DestSlideId": "D9.pm.S1"
                 }]
             },
 			{
-                "ID": "D1.pm.S6",
+                "ID": "D9.pm.S1",
                 "Type": "Single",
                 "Style": "Overlay",
-                "BackgroundImage": "Launching07",
                 "SlideContents": [],
-                "HeaderText": "",
-                "BodyText": "",
+				"NPCName": "",
+                "NPCPhiz": "",
+                "HeaderText": "感谢推荐！",
+                "BodyText": "远方的使者，感谢你的推荐！\n非常好奇在推荐的那天会发生什么\n没想到我们俩吸烟原因如此相似\n希望我们都能顺利完成“拯救者计划”！",
                 "UIControls": [{
-                    "ComponentType": "LongButton",
-                    "Label": "下一步",
-                    "Icon": "",
-                    "DestSlideId": "D1.pm.S7"
-                }],
-                "Questions": [{
-                    "QuestionId": "D1.pm.S6.Q1",
-                    "QuestionType": "ProvinceData",
-                    "QuestionLabel": "",
-                    "ResponseAction": ""
+                        "ComponentType": "LongButton",
+                        "Label": "下一步",
+                        "DestSlideId": "D9.pm.S2"
                 }]
             },
             {
-                "ID": "D1.pm.S7",
+                "ID": "D9.pm.S2",
+                "Type": "Single",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "",
+                "NPCPhiz": "",
+                "HeaderText": "传达谢意",
+                "BodyText": "为了让他人更好地给你提供帮助\n思考一下你可能对哪些提供帮助的方式感到不适应\n是过度唠叨？过度施压？还是过分鼓励？\n下次在感谢帮你戒烟的人的同时\n也把自己的不适应告诉他/她\n请相信，他/她会理解的！",
+                "UIControls": [{
+                        "ComponentType": "LongButton",
+                        "Label": "好的",
+                        "DestSlideId": "D9.pm.S3"
+                }]
+            },
+			{
+                "ID": "D9.pm.S3",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
                 "NPCName": "星际委",
                 "NPCPhiz": "",
                 "HeaderText": "",
-                "BodyText": "如你所见\n其实不管在K114星球还是在你身边\n都有许多吸烟成瘾的居民",
+                "BodyText": "快看！\n在重整一新的星际空港基地\n一艘星际飞船已经矗立在发射架上！",
                 "UIControls": [{
                     "ComponentType": "NextButton",
                     "Label": "",
-                    "DestSlideId": "D1.pm.S8"
+                    "DestSlideId": "D9.pm.S4"
                 }]
-            },
-			{
-                "ID": "D1.pm.S8",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-                "NPCName": "星际委",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "星际委员会选中你执行任务\n了解烟草，但戒烟的选择权始终在你\n自己手中……",
-                "UIControls": [{
-                    "ComponentType": "NextButton",
-                    "Label": "",
-                    "DestSlideId": "D1.pm.S9"
-                }]
-            },
-			{
-                "ID": "D1.pm.S9",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "老顾，你们不妨也统计一下\nK114星球居民的吸烟情况\n我相信这将帮助大家看清些潜藏的问题",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.pm.S10"
-                }]
-            },
-			{
-                "ID": "D1.pm.S10",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
-                "HeaderText": "",
-                "BodyText": "太好了，谢谢你的建议\n我会立马推进这项工作\n认识和接纳自己才是改变的第一步！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.pm.S11"
-                }]
-            },
-			{
-                "ID": "D1.pm.S11",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "老顾",
-                "NPCPhiz": "normal",
-                "HeaderText": "",
-                "BodyText": "我们K114星球的居民\n最急需的就是认清现状！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.pm.S12"
-                }]
-            },
-			{
-                "ID": "D1.pm.S12",
-                "Type": "Dialog",
-                "Style": "Overlay",
-                "SlideContents": [],
-				"NPCName": "我",
-                "NPCPhiz": "",
-                "HeaderText": "",
-                "BodyText": "不错，自我审视是改变的开始\n让我们一起努力\n重启K114星球的美好未来！",
-                "UIControls": [{
-                        "ComponentType": "NextButton",
-                        "Label": "",
-                        "DestSlideId": "D1.pm.S13"
-                }]
-            },
-			{
-                "ID": "D1.pm.S13",
-                "Type": "Reward",
-                "Style": "Overlay",
-                "BackgroundImage": "Launching07",
-                "UIControls": [{
-                    "ComponentType": "LongButton",
-                    "Label": "建造完成",
-                    "Icon": "",
-                    "DestSlideId": "D1.pm.S14"
-                }],
-                "Reward": {
-                    "Id": "D1.am.reward.1"
-                }
             },
             {
-                "ID": "D1.pm.S14",
+                "ID": "D9.pm.S4",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+                "NPCName": "老顾",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "在你的帮助下\n我们很多人已经开始戒烟\n星际空港也已重建完毕",
+                "UIControls": [{
+                    "ComponentType": "NextButton",
+                    "Label": "",
+                    "DestSlideId": "D9.pm.S5"
+                }]
+            },
+            {
+                "ID": "D9.pm.S5",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+                "NPCName": "老顾",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "健康有序的社会风气正在恢复\n是你拯救了我们的星球！\n请接受我们诚挚的谢意！",
+                "UIControls": [{
+                    "ComponentType": "NextButton",
+                    "Label": "",
+                    "DestSlideId": "D9.pm.S6"
+                }]
+            },
+            {
+                "ID": "D9.pm.S6",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+                "NPCName": "艾丽莎",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "是你的耐心引导\n让我学习到了丰富的戒烟知识\n谢谢你！",
+                "UIControls": [{
+                    "ComponentType": "NextButton",
+                    "Label": "",
+                    "DestSlideId": "D9.pm.S7"
+                }]
+            },
+            {
+                "ID": "D9.pm.S7",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+                "NPCName": "史塔克",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "现在\n我的健康正在恢复\n我和家人的关系也变得融洽了哈",
+                "UIControls": [{
+                    "ComponentType": "NextButton",
+                    "Label": "",
+                    "DestSlideId": "D9.pm.S8"
+                }]
+            },
+            {
+                "ID": "D9.pm.S8",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+                "NPCName": "李伟",
+                "NPCPhiz": "happy",
+                "HeaderText": "",
+                "BodyText": "我们将不负你的期望\n为K114星球的未来继续努力！",
+                "UIControls": [{
+                    "ComponentType": "NextButton",
+                    "Label": "",
+                    "DestSlideId": "D9.pm.S9"
+                }]
+            },
+			{
+                "ID": "D9.pm.S9",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "我",
+                "NPCPhiz": "",
+                "HeaderText": "",
+                "BodyText": "其实，我更应该感谢大家\n在帮助你们的过程中\n我也重新认识了自己\n对自己的吸烟行为有了反思!\n我从你们身上学到了很多",
+                "UIControls": [{
+                        "ComponentType": "NextButton",
+                        "Label": "",
+                        "DestSlideId": "D9.pm.S10"
+                }]
+            },
+            {
+                "ID": "D9.pm.S10",
+                "Type": "Dialog",
+                "Style": "Overlay",
+                "SlideContents": [],
+				"NPCName": "",
+                "NPCPhiz": "",
+                "HeaderText": "",
+                "BodyText": "在崭新的星际空港\n第一艘货运飞船发射进入倒计时\n它预示着K114星球将会重新走向繁荣！\n5，4，3，2，1",
+                "UIControls": [{
+                        "ComponentType": "FinishButton",
+                        "Label": "点火",
+                        "DestSlideId": "D9.pm.S11"
+                }]
+            },
+            {
+                "ID": "D9.pm.S11",
                 "Type": "Single",
                 "Style": "Overlay",
                 "BackgroundImage": "Launching07",
                 "SlideContents": [],
                 "HeaderText": "「夜间任务已完成",
-                "BodyText": "明天上午，将有一位美丽而多愁善感的姑娘\n前来向你寻求帮助\n什么事让她心怀忧虑、愁眉不展呢？",
+                "BodyText": "空港的重建已经完成\n还有一天就要离开K114星球了\n你还有什么想要做的吗？让我们明天见",
                 "UIControls": [{
                     "ComponentType": "LongButton",
                     "Label": "返回主页",
                     "Icon": "",
-                    "DestSlideId": "D1.pm.S15"
-                }]
-            },
-			{
-                "ID": "D1.pm.S15",
-                "Type": "Single",
-                "Style": "Overlay",
-                "BackgroundImage": "Launching07",
-                "SlideContents": [],
-                "HeaderText": "「隐藏剧情已解锁",
-                "BodyText": "恭喜你已经顺利完成了今日任务\n解锁了一段隐藏剧情\n【老顾的记事本】\n请点击主页的“高级通讯卫星”查看\n不知看完后的你，会不会心生感触呢？",
-                "UIControls": [{
-                    "ComponentType": "LongButton",
-                    "Label": "返回主页",
-                    "Icon": "",
-                    "DestSlideId": "D1.pm.S16"
+                    "DestSlideId": "D1.pm.S12"
                 }]
             },
             {
-                "ID": "D1.pm.S16",
+                "ID": "D1.pm.S12",
                 "Type": "Single",
                 "Style": "Blank",
                 "BackgroundImage": "Mainpage01",
@@ -6580,13 +6456,13 @@
 		{
             "AM": true,
             "DayID": "D10",
-            "AMNotification": "一位德高望重的居民前来跟您沟通……",
-            "PMNotification": "老顾拿着测试结果来向你回复了……",
+            "AMNotification": "“拯救者计划”的截止日终于到来……",
+            "PMNotification": "是时候开始新的旅程了……",
             "AMNotificationTitle": "倒计时0天",
             "PMNotificationTitle": "倒计时0天",
             "AMScreens": [
 			{
-                "ID": "D1.am.S0",
+                "ID": "D10.am.S0",
                 "Type": "Dialog",
                 "Style": "Overlay",
                 "SlideContents": [],
@@ -6597,7 +6473,7 @@
                 "UIControls": [{
                         "ComponentType": "NextButton",
                         "Label": "",
-                        "DestSlideId": "D1.am.S1"
+                        "DestSlideId": "D10.am.S1"
                 }]
             },
 			{
